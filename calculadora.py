@@ -5,8 +5,6 @@ from functools import partial # Importa partial para facilitar a passagem de arg
 import os # Importa a biblioteca os
 import sys # Importa a biblioteca sys para acessar o sistema
 
-# ========= 𝓟𝓮𝓭𝓻𝓸 𝓜𝓲𝓽𝓼𝓾𝓪𝓴𝓲 𝓣𝓪𝓷𝓪𝓴𝓪 𝓒𝓸𝓼𝓽𝓪 ========= #
-
 def resource_path(relative_path):
     """ Obtém o caminho absoluto para o recurso , funciona para dev e para o PyInstaller """
 
